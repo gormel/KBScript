@@ -45,7 +45,7 @@ namespace KBScriptCore.Code.Parser
 
 			if (parsed.Count != 1)
 				return null;
-
+			
 			Moved = parsed[0].moved;
 			return parsed[0].result;
 		}
